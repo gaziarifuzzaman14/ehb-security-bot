@@ -1,0 +1,36 @@
+# Logs
+*.log
+logs/
+report.txt
+report.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Shell backups
+*.bak
+*.old
+*~
+
+# API keys / secrets
+.env
+.env.local
+*.key
+*.secret
+
+# Termux / Android specific
+termux.log
+storage/
+
+# Virus scan outputs
+clamscan.log
+
+# Python (if extended later)
+__pycache__/
+*.pyc
